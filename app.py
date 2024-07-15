@@ -56,7 +56,7 @@ st.markdown("""
 - Sajjid Ali - Team Leader
 - Zulfiqar Ali Mir
 - Stavin Fernandes
-- Victoria
+- Victoria Ude
 - Nguyen Chi
 - Muhammad Abubakar Alameen
 """)
