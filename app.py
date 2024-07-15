@@ -26,6 +26,21 @@ st.markdown(
 st.title('Codemate - Your Coding Tutor')
 st.header('LangFlow Chatbot using Llama3 80b')
 
+# Sidebar menu for user profile
+menu = ["Profile", "Settings", "Help"]
+choice = st.sidebar.selectbox("Menu", menu)
+
+# Function to display different sections based on user choice
+if choice == "Profile":
+    st.subheader("User Profile")
+    # Add user profile details here
+elif choice == "Settings":
+    st.subheader("Settings")
+    # Add settings options here
+elif choice == "Help":
+    st.subheader("Help")
+    # Add help information here
+
 # Define a list of programming languages
 programming_languages = ['Python', 'Java', 'JavaScript', 'C++', 'Ruby', 'PHP']
 
