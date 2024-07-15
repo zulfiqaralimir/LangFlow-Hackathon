@@ -47,6 +47,19 @@ if st.button("Send"):
     st.text_area("Chatbot:", value=response.get('response', 'No response received.'), height=200)
 
 
+# Title
+st.title('Our Team CodeCrafters')
+
+# List of team members
+st.markdown("""
+- Sajjid Ali - Team Leader
+- Zulfiqar Ali Mir
+- Stavin Fernandes
+- Victoria
+- Nguyen Chi
+- Muhammad Abubakar Alameen
+""")
+
 
 
 # import streamlit as st
