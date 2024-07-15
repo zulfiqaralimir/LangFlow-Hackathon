@@ -26,6 +26,16 @@ st.markdown(
 st.title('Codemate - Your Coding Tutor')
 st.header('LangFlow Chatbot using Llama3 80b')
 
+# Define a list of programming languages
+programming_languages = ['Python', 'Java', 'JavaScript', 'C++', 'Ruby', 'PHP']
+
+# Display a dropdown select box
+selected_language = st.selectbox('Select a programming language', programming_languages)
+
+# Show the selected language
+st.write('You selected:', selected_language)
+
+
 # Function to query the LangFlow API
 def query_langflow(message):
     url = "https://astra.datastax.com/langflow/8a63160f-cba9-41aa-8b94-6f0636885a2a/flow/c194ac23-cf6b-4d8b-b9bf-51505cc18d96"
