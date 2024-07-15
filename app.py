@@ -12,7 +12,8 @@ import streamlit as st
 import requests
 import json
 
-st.title('LangFlow Chatbot with LLaMA-3')
+st.title('Codemate - Your Programming Tutor')
+st.header('LangFlow Chatbot using Llama3 80b')
 
 # Function to query the LangFlow API
 def query_langflow(message):
@@ -48,7 +49,7 @@ if st.button("Send"):
 
 
 # Title
-st.title('Our Team CodeCrafters')
+st.header('Our Team CodeCrafters')
 
 # List of team members
 st.markdown("""
