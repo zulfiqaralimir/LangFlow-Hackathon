@@ -12,7 +12,18 @@ import streamlit as st
 import requests
 import json
 
-st.title('Codemate - Your Programming Tutor')
+st.markdown(
+    """
+    <style>
+    /* Title color */
+    h1 {
+        color: green;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.title('Codemate - Your Coding Tutor')
 st.header('LangFlow Chatbot using Llama3 80b')
 
 # Function to query the LangFlow API
